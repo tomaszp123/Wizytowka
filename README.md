@@ -1,7 +1,7 @@
 # Wizytowka
 
 
-##Projekt mojej strony wizytowej v.1
+## Projekt mojej strony wizytowej v.1
 
 
 ### Wersja 01 ale będzie zdecydowanie rozwijana
