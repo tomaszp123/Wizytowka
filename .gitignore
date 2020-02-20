@@ -2,3 +2,5 @@
 /Docs
 #Readme.md
 *.md
+#node_modules bo mozna se samemu wygeneroać przez npm install
+/node_modules

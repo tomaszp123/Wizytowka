@@ -1,0 +1,24 @@
+{
+  "name": "wizytowka",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomaszp123/Wizytowka.git"
+  },
+  "author": "Tomasz Pajewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomaszp123/Wizytowka/issues"
+  },
+  "homepage": "https://github.com/tomaszp123/Wizytowka#readme",
+  "dependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
