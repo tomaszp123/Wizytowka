@@ -4,3 +4,5 @@
 *.md
 #node_modules bo mozna se samemu wygeneroać przez npm install
 /node_modules
+# workspace niestety nie działa na innych kompach (inne katalogi)
+ wizytowka.code-workspace
