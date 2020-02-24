@@ -350,7 +350,7 @@ section {
     padding: 0 10px;
 }
 
-.portfolio web img {
+.portfolio .web img {
     width: 100%;
 }
 
@@ -358,18 +358,30 @@ section {
     color: #fff;
     font-family: 'Saira', sans-serif;
     font-weight: normal;
-    padding: 10px 20px 20px 10px;
+    padding: 10px 20px 20px 0px;
     text-align: left;
 }
 
 .portfolio .about h2 {
     font-size: 16px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    text-indent: 20px;
 }
 
 .portfolio .about p {
     font-size: 12px;
 }
 
-.portfolio .project:nth-last-of-type(odd) {
+.portfolio .project {
+    margin-bottom: 20px;
+}
+
+.portfolio .project:nth-last-of-type(even) {
     background-color: orange;
+}
+
+.portfolio .project:nth-last-of-type(odd) {
+    background-color: deepskyblue;
 }
