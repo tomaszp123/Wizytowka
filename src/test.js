@@ -1,5 +1,4 @@
-function test () {
-    console.log("hi you kopmy tu !"); // nie zadziała bo node.js nie jest zainstalowany
+function test() {
+    console.log("hi you kopmy tu !");
 }
-
 export default test;

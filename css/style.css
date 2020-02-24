@@ -328,3 +328,17 @@ section {
         padding: 0 10px;
     }
 }
+
+.portoflio {
+    background-color: #000;
+}
+
+.portoflio h1 {
+    font-size: 28px;
+    color: #fff;
+}
+
+.portoflio h4 {
+    font-size: 16px;
+    color: #fff;
+}
