@@ -331,6 +331,7 @@ section {
 
 .portfolio {
     background-color: #000;
+    padding: 10px 0 30px;
 }
 
 .portfolio h1 {
@@ -339,7 +340,7 @@ section {
     text-transform: uppercase;
     color: #fff;
     text-align: center;
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 
 .portfolio h4 {
@@ -347,7 +348,8 @@ section {
     font-family: 'Saira', sans-serif;
     color: #fff;
     text-align: center;
-    padding: 0 10px;
+    padding: 10px 10px;
+    margin-bottom: 15px;
 }
 
 .portfolio .web img {
@@ -371,17 +373,89 @@ section {
 }
 
 .portfolio .about p {
-    font-size: 12px;
+    font-size: 10px;
+    padding-left: 20px;;
 }
 
 .portfolio .project {
-    margin-bottom: 20px;
+    max-width: 1400px;
+    margin: 0 auto 20px;
 }
 
-.portfolio .project:nth-last-of-type(even) {
-    background-color: orange;
+.portfolio .project:nth-of-type(odd) {
+    background-color: #ff4f2c;
 }
 
-.portfolio .project:nth-last-of-type(odd) {
-    background-color: deepskyblue;
+.portfolio .project:nth-of-type(even) {
+    background-color: #29a6dc;
+}
+
+@media (min-width:768px) {
+    .portfolio .project{
+        margin-bottom: 40px;
+    }
+    .portfolio h1 {
+        font-size: 40px;
+    }
+    .portfolio .about h2 {
+        font-size: 28px;
+        text-indent: 40px;
+    }
+    .portfolio .about p {
+        font-size: 14px;
+        padding-left: 40px;
+    }
+}
+
+@media (orientation: landscape) {
+    .web, 
+    .about {
+        width: 50%;
+        float: left;
+    }
+    .web img {
+        display: block;
+    }
+    .portfolio .project:nth-of-type(even) .web {
+            float: right;
+        }
+    .portfolio .project:nth-of-type(even) .about {
+        padding-right: 0;
+    }
+     .portfolio .project:nth-of-type(even) .about h2 {
+            text-indent: 0;
+            margin-left: 40px;
+        }
+    .portfolio .project:nth-of-type(even) .about p {
+        padding: 0 40px 20px;
+    }
+}
+@media (orientation: landscape) and (min-width:1024px ) {
+    .portfolio .about h2 {
+        padding-top: 30px;
+    }
+}
+
+@media (orientation: landscape) and (min-width:1400px ) {
+    .portfolio .project{
+        margin-bottom: 40px;
+    }
+    .portfolio h1 {
+        font-size: 60px;
+        padding: 10px 0;
+    }
+    .portfolio h4{
+        padding: 30px 0;
+    }
+    .portfolio .about h2 {
+        padding-top: 50px;
+        font-size: 28px;
+        text-indent: 40px;
+        margin-bottom: 40px;
+    }
+    .portfolio .about p {
+        font-size: 14px;
+        padding-left: 40px;
+        line-height: 180%;
+    }
 }

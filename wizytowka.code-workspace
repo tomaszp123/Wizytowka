@@ -3,5 +3,10 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"docthis.includeAuthorTag": true,
+		"docthis.includeDescriptionTag": true,
+		"docthis.authorName": "@Tomasz Pajewski"
+	}
 }
