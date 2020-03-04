@@ -216,8 +216,8 @@ header button {
     }
 }
 
-section {
-    min-height: 30vh;
+footer {
+    min-height: 80vh;
 }
 
 /* Sekcja pierwsza features */
@@ -466,19 +466,66 @@ section {
     background-image: url(../images/Hobby_1.JPG);
     background-size: cover;
     background-position: center;
-    padding: 30px 10px;
-    color: #444;
+    background-attachment: fixed;
+    color: #ddd;
 }
 .slogan h1 {
     font-family: 'Saira Condensed', sans-serif;
     font-size: 24px;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .slogan p {
     font-family: 'Saira', sans-serif;
     font-size: 20px;
 }
 .slogan p.autor {
+    margin-top: 12px;;
     font-size: 14px;
+}
+.slogan .bg {
+    padding: 30px 10px;
+    background-color:rgba(0,63,114,0.5) ;
+}
+@media (orientation: landscape){
+    .slogan p {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width: 768px){
+    .slogan .bg{
+        padding: 50px 10px;
+    }
+    .slogan h1 {
+        font-size: 48px;
+        margin-bottom: 35px;
+    }
+    .slogan p {
+        font-size: 26px;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .slogan p.autor {
+        margin-top: 40px;;
+        font-size: 18px;
+    }
+}
+@media (min-width: 1024px){
+    .slogan .bg{
+        padding: 80px 10px;
+    }
+    .slogan h1 {
+        font-size: 60px;
+        margin-bottom: 55px;
+    }
+    .slogan p {
+        font-size: 40px;
+        width: 50%;
+    }
+    .slogan p.autor {
+        margin-top: 40px;;
+        font-size: 26px;
+    }
 }
