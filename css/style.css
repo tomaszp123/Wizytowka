@@ -374,7 +374,8 @@ footer {
 
 .portfolio .about p {
     font-size: 10px;
-    padding-left: 20px;;
+    padding-left: 20px;
+    ;
 }
 
 .portfolio .project {
@@ -391,16 +392,19 @@ footer {
 }
 
 @media (min-width:768px) {
-    .portfolio .project{
+    .portfolio .project {
         margin-bottom: 40px;
     }
+
     .portfolio h1 {
         font-size: 40px;
     }
+
     .portfolio .about h2 {
         font-size: 28px;
         text-indent: 40px;
     }
+
     .portfolio .about p {
         font-size: 14px;
         padding-left: 40px;
@@ -408,51 +412,62 @@ footer {
 }
 
 @media (orientation: landscape) {
-    .web, 
+
+    .web,
     .about {
         width: 50%;
         float: left;
     }
+
     .web img {
         display: block;
     }
+
     .portfolio .project:nth-of-type(even) .web {
-            float: right;
-        }
+        float: right;
+    }
+
     .portfolio .project:nth-of-type(even) .about {
         padding-right: 0;
     }
-     .portfolio .project:nth-of-type(even) .about h2 {
-            text-indent: 0;
-            margin-left: 40px;
-        }
+
+    .portfolio .project:nth-of-type(even) .about h2 {
+        text-indent: 0;
+        margin-left: 40px;
+    }
+
     .portfolio .project:nth-of-type(even) .about p {
         padding: 0 40px 20px;
     }
 }
-@media (orientation: landscape) and (min-width:1024px ) {
+
+@media (orientation: landscape) and (min-width:1024px) {
     .portfolio .about h2 {
         padding-top: 30px;
     }
 }
 
-@media (orientation: landscape) and (min-width:1400px ) {
-    .portfolio .project{
+@media (orientation: landscape) and (min-width:1400px) {
+    .portfolio .project {
         margin-bottom: 40px;
     }
+
     .portfolio h1 {
         font-size: 60px;
         padding: 10px 0;
     }
-    .portfolio h4{
+
+    .portfolio h4 {
         padding: 30px 0;
     }
+
     .portfolio .about h2 {
         padding-top: 50px;
         font-size: 28px;
         text-indent: 40px;
         margin-bottom: 40px;
     }
+
     .portfolio .about p {
         font-size: 14px;
         padding-left: 40px;
@@ -469,103 +484,127 @@ footer {
     background-attachment: fixed;
     color: #ddd;
 }
+
 .slogan h1 {
     font-family: 'Saira Condensed', sans-serif;
     font-size: 24px;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
+
 .slogan p {
     font-family: 'Saira', sans-serif;
     font-size: 20px;
 }
+
 .slogan p.autor {
-    margin-top: 12px;;
+    margin-top: 12px;
+    ;
     font-size: 14px;
 }
+
 .slogan .bg {
     padding: 30px 10px;
-    background-color:rgba(0,63,114,0.5) ;
+    background-color: rgba(0, 63, 114, 0.5);
 }
-@media (orientation: landscape){
+
+@media (orientation: landscape) {
     .slogan p {
         width: 60%;
         margin-left: auto;
         margin-right: auto;
     }
 }
-@media (min-width: 768px){
-    .slogan .bg{
+
+@media (min-width: 768px) {
+    .slogan .bg {
         padding: 50px 10px;
     }
+
     .slogan h1 {
         font-size: 48px;
         margin-bottom: 35px;
     }
+
     .slogan p {
         font-size: 26px;
         width: 60%;
         margin: 0 auto;
     }
+
     .slogan p.autor {
-        margin-top: 40px;;
+        margin-top: 40px;
+        ;
         font-size: 18px;
     }
 }
-@media (min-width: 1024px){
-    .slogan .bg{
+
+@media (min-width: 1024px) {
+    .slogan .bg {
         padding: 80px 10px;
     }
+
     .slogan h1 {
         font-size: 60px;
         margin-bottom: 55px;
     }
+
     .slogan p {
         font-size: 40px;
         width: 50%;
     }
+
     .slogan p.autor {
-        margin-top: 40px;;
+        margin-top: 40px;
+        ;
         font-size: 26px;
     }
 }
+
 /* Sekcja hobby */
 .hobby {
     max-width: 1200px;
     margin: 0 auto;
 }
-.hobby h1{
+
+.hobby h1 {
     text-transform: uppercase;
     padding: 20px;
     font-family: 'saira condensed', sans-serif;
     text-align: center;
     font-size: 36px;
 }
-.hobby div{
+
+.hobby div {
     height: 25vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .hobby .item1 {
     background-image: url(../images/Hobby_1.JPG);
 }
+
 .hobby .item2 {
-    background-image: url(../images/Hobby_2.JPG);
+    background-image: url(../images/Hobby_4.JPG);
 }
+
 .hobby .item3 {
-    background-image: url(../images/Hobby_3.JPEG);
+    background-image: url(../images/Hobby_5.JPG);
 }
+
 .hobby .item4 {
     background-image: url(../images/Hobby_3.JPEG);
 }
+
 .hobby div p {
     font-family: 'saira', sans-serif;
     color: #fff;
     text-align: center;
     /* line-height: 25vh; */
     text-shadow: 0 0 4px #000;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
     padding: 5px 0;
 }
@@ -577,43 +616,51 @@ footer {
         height: 40vh;
     }
 }
-@media (min-width: 768px){
+
+@media (min-width: 768px) {
     .hobby h1 {
         font-size: 48px;
         margin-top: 40px;
         margin-bottom: 30px;
     }
-    .hobby div p{
+
+    .hobby div p {
         font-size: 30px;
         padding: 15px 0;
     }
 }
+
 @media (min-width: 1024px) {
-    .hobby div p{
+    .hobby div p {
         padding: 0;
         line-height: 40vh;
         opacity: 0;
         transition: 1s;
         cursor: default;
     }
+
     .hobby div:hover p {
         opacity: 1;
     }
+
     .hobby div {
         background-size: 100%;
         transition: 1s;
     }
+
     .hobby div:hover {
         background-size: 140%;
     }
 }
+
 @media (min-width: 1600px) {
     .hobby h1 {
         font-size: 60px;
         margin-top: 50px;
         margin-bottom: 45px;
     }
-    .hobby div p{
+
+    .hobby div p {
         font-size: 40px;
     }
 }
