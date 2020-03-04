@@ -530,7 +530,12 @@ footer {
     }
 }
 /* Sekcja hobby */
+.hobby {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .hobby h1{
+    text-transform: uppercase;
     padding: 20px;
     font-family: 'saira condensed', sans-serif;
     text-align: center;
@@ -540,6 +545,7 @@ footer {
     height: 25vh;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 .hobby .item1 {
     background-image: url(../images/Hobby_1.JPG);
@@ -555,11 +561,59 @@ footer {
 }
 .hobby div p {
     font-family: 'saira', sans-serif;
-    color: #999;
+    color: #fff;
     text-align: center;
     /* line-height: 25vh; */
     text-shadow: 0 0 4px #000;
     background-color: rgba(0,0,0,0.5);
     font-size: 20px;
     padding: 5px 0;
+}
+
+@media (min-width: 533px) {
+    .hobby div {
+        float: left;
+        width: 50%;
+        height: 40vh;
+    }
+}
+@media (min-width: 768px){
+    .hobby h1 {
+        font-size: 48px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .hobby div p{
+        font-size: 30px;
+        padding: 15px 0;
+    }
+}
+@media (min-width: 1024px) {
+    .hobby div p{
+        padding: 0;
+        line-height: 40vh;
+        opacity: 0;
+        transition: 1s;
+        cursor: default;
+    }
+    .hobby div:hover p {
+        opacity: 1;
+    }
+    .hobby div {
+        background-size: 100%;
+        transition: 1s;
+    }
+    .hobby div:hover {
+        background-size: 140%;
+    }
+}
+@media (min-width: 1600px) {
+    .hobby h1 {
+        font-size: 60px;
+        margin-top: 50px;
+        margin-bottom: 45px;
+    }
+    .hobby div p{
+        font-size: 40px;
+    }
 }
