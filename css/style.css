@@ -529,3 +529,37 @@ footer {
         font-size: 26px;
     }
 }
+/* Sekcja hobby */
+.hobby h1{
+    padding: 20px;
+    font-family: 'saira condensed', sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+.hobby div{
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+}
+.hobby .item1 {
+    background-image: url(../images/Hobby_1.JPG);
+}
+.hobby .item2 {
+    background-image: url(../images/Hobby_2.JPG);
+}
+.hobby .item3 {
+    background-image: url(../images/Hobby_3.JPEG);
+}
+.hobby .item4 {
+    background-image: url(../images/Hobby_3.JPEG);
+}
+.hobby div p {
+    font-family: 'saira', sans-serif;
+    color: #999;
+    text-align: center;
+    /* line-height: 25vh; */
+    text-shadow: 0 0 4px #000;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 20px;
+    padding: 5px 0;
+}
