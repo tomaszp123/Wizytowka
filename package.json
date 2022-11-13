@@ -18,6 +18,6 @@
   "homepage": "https://github.com/tomaszp123/Wizytowka#readme",
   "dependencies": {
     "webpack": "^4.41.6",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   }
 }
